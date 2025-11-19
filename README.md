@@ -5,6 +5,9 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/ng-snotify.svg)](https://www.npmjs.com/package/ng-snotify)
 [![Dev dependencies status list](https://david-dm.org/artemsky/ng-snotify/dev-status.svg)](https://david-dm.org/artemsky/ng-snotify?type=dev)
 
+## INFO
+This is just a version bumb until the original creator updates the package
+
 ## Example
 https://artemsky.github.io/ng-snotify/
 

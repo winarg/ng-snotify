@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
+import { SnotifyPosition, SnotifyService, SnotifyToastConfig  } from 'projects/ng-snotify/src/public-api';
 import { Observable } from 'rxjs';
-import { SnotifyPosition, SnotifyService, SnotifyToastConfig } from 'ng-snotify';
 
 @Component({
   selector: 'app-root',
@@ -127,7 +127,7 @@ export class AppComponent {
             }),
           1000
         );
-        setTimeout(() => resolve(), 1500);
+        setTimeout(() => resolve(null), 1500);
       }),
       config
     );

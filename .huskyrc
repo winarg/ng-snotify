@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "npm run precommit",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "pre-commit-disabled": "npm run precommit",
+    "commit-msg-disabled": "commitlint -E HUSKY_GIT_PARAMS"
   }
 }

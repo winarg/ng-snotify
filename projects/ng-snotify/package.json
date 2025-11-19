@@ -1,7 +1,7 @@
 {
-  "name": "ng-snotify",
+  "name": "@winarg/ng-snotify",
   "description": "Angular 2+ notifications center",
-  "version": "9.0.2",
+  "version": "18.0.0",
   "homepage": "https://artemsky.github.io/ng-snotify",
   "repository": {
     "type": "git",
@@ -75,9 +75,12 @@
   "bugs": {
     "url": "https://artemsky.github.io/ng-snotify/issues"
   },
+  "dependencies": {
+    "tslib": "2"
+  },
   "peerDependencies": {
-    "@angular/core": "^9.0.0",
-    "rxjs": "^6.5.4",
-    "zone.js": "^0.10.2"
+    "@angular/core": ">=18",
+    "rxjs": "7",
+    "zone.js": "^0.14.10"
   }
 }
