@@ -6,7 +6,7 @@
 [![Dev dependencies status list](https://david-dm.org/artemsky/ng-snotify/dev-status.svg)](https://david-dm.org/artemsky/ng-snotify?type=dev)
 
 ## INFO
-This is just a version bumb until the original creator updates the package
+This is just a version bump until the original creator updates the package
 
 ## Example
 https://artemsky.github.io/ng-snotify/
