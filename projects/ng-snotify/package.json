@@ -1,7 +1,7 @@
 {
   "name": "@winarg/ng-snotify",
   "description": "Angular 18+ notifications center",
-  "version": "18.0.0",
+  "version": "18.0.1",
   "homepage": "https://winarg.github.io/ng-snotify",
   "repository": {
     "type": "git",
