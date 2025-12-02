@@ -1,5 +1,5 @@
 {
-  "name": "ng-snotify-example",
+  "name": "@winarg/ng-snotify",
   "description": "Angular 18+ notifications center",
   "version": "18.0.1",
   "scripts": {
@@ -35,7 +35,7 @@
     "prepare": "npm run lib:build:prod",
     "postinstall-remove": "webdriver-manager update --standalone false --gecko false",
     "packOLD": "npm run prepare && npm publish dist/ng-snotify --access=public",
-    "pack": "ng-packagr -p projects/ng-snotify/ng-package.json & cd dist/libs/ng-snotify & npm publish --access=public"
+    "pack": "ng-packagr -p projects/ng-snotify/ng-package.json && cd dist/ng-snotify && npm publish --access=public"
   },
   "homepage": "https://artemsky.github.io/ng-snotify",
   "repository": {

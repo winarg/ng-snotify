@@ -23,7 +23,7 @@ export class ToastComponent implements OnInit, OnDestroy, AfterContentInit {
   /**
    * Get toast from notifications array
    */
-  @Input() toast: SnotifyToast;
+  @Input() toast: SnotifyToast | any;
   @Output() stateChanged = new EventEmitter<SnotifyEventType>();
 
   toastDeletedSubscription: Subscription;
