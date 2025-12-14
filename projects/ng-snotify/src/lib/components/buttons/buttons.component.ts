@@ -6,7 +6,8 @@ import { SnotifyToast } from '../../models/snotify-toast.model';
   selector: 'ng-snotify-button',
   templateUrl: './buttons.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  standalone: false,
 })
 
 /**

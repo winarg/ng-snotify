@@ -9,7 +9,8 @@ import { SnotifyEventType } from '../../types/snotify-event.type';
 @Component({
   selector: 'ng-snotify',
   templateUrl: './snotify.component.html',
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  standalone: false,
 })
 export class SnotifyComponent implements OnInit, OnDestroy {
   /**
